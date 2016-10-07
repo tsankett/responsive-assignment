@@ -1,0 +1,95 @@
+@media only screen and (min-width: 769px, max-width:1200px) {
+
+
+.wrapper{
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+    .search #search {
+    width: 1000px;
+    }
+    .search .advanced_search_icon {
+ display: block;
+    width: 26px;
+    height: 26px;
+    float: right;
+    background: url('../img/advanced_search_inactive.png') no-repeat;
+    margin-top: 37px;
+
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    }
+    
+    /*  -----  to change font of h2 tag-----*/    
+    .hero .caption h2 {
+ color: #fff;
+    font-family: "P22 Corinthia";
+    font-size: 100px;
+    font-weight: lighter;
+    margin: 0;
+    position: relative;
+    display: block;    }
+    
+/*    this is creating problem of left margin of-12px check it*/
+    .listings ul.properties_list {
+         list-style: none;
+    overflow: hidden;
+    }
+    header nav {
+    float: right;
+    }
+    header a.hamburger { text-decoration: none;
+    display: none;
+    float: right;
+    margin-top: 41px;
+    width: 24px;
+    height: 19px;
+    background: url('../img/hamburger_icon.png') no-repeat;
+   }
+    
+    
+    .listings ul.properties_list li:nth-child(3n+0) {
+    margin-right: 0;
+    }            
+    
+/*
+    footer{
+        width:100%;
+    }
+*/
+
+ 
+footer .footer > ul > li.links {
+    width: 197px;
+
+}
+    
+    footer .footer > ul > li.links li a{
+text-decoration: none;
+    display: block;
+    color: #fff;
+    font-family: "lato-regular", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    letter-spacing: .5px;
+    text-align: left;    
+    
+    }
+footer .footer > ul > li.about{
+       width: 327px;
+
+/*    margin: 40px ;*/
+}
+    
+    footer ul li.about p {
+        color: #fff;
+    font-family: "lato-regular", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    letter-spacing: .5px;
+    line-height: 34px;
+    margin-top: -9px;
+    }
+}
